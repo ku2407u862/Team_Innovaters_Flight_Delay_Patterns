@@ -1,7 +1,7 @@
-# Urban Traffic Analysis
+# Flight Delay Patterns
 
 ## Project Objective
-Analyze and visualize urban traffic patterns during peak hours.
+Analyze and visualize flight delay patterns during peak hours.
 
 ## Group Members
 - **Jaival Kansara** - ku2407u862  
@@ -32,30 +32,30 @@ Data Source Details
 
 Currently, the project uses a synthetic dataset created for demonstration purposes.
 
-This dataset simulates traffic patterns throughout a typical day, including peak hours.
+This dataset simulates flight delay patterns throughout a typical day, including peak hours.
 
 
 
 2. Using Real Data Sources:
 
-For real-world traffic analysis, the following data sources can be utilized:
+For real-world flight delay analysis, the following data sources can be utilized:
 
-City Transportation Departments:
+City Airport Departments:
 
-Publicly available datasets on traffic patterns.
+Publicly available datasets on flight patterns.
 
-Examples: Open Data portals for urban planning or regional transportation authorities.
+Examples: Open Data portals for urban planning or regional airport authorities.
 
 ### Current Dataset
 - Synthetic data created for demonstration purposes.
 
 ### Using Real Data
-- **Traffic Data Sources**:
-  - City Transportation Departments (e.g., Open Data portals for urban planning).
-  - Traffic APIs such as:
+- **Flight Data Sources**:
+  - City Airport Departments (e.g., Open Data portals for urban planning).
+  - Flight APIs such as:
     - Google Maps Traffic API
-    - TomTom Traffic API
-  - IoT Sensors (e.g., traffic cameras, smart sensors, or GPS devices).
+    - Now Flights API
+  - IoT Sensors (e.g., plane status, smart sensors, or GPS devices).
 
 
 ## Execution Steps
@@ -68,25 +68,25 @@ Examples: Open Data portals for urban planning or regional transportation author
      ```
 
 2. **Save the Python Script**:
-   - Copy the code provided and save it as `urban_traffic_analysis.py`.
+   - Copy the code provided and save it as `Airlines_Delay_Pattern.py`.
 
 3. **Run the Script**:
    - Execute the script in your terminal or command prompt:
      ```bash
-     python urban_traffic_analysis.py
+     python Airlines_Delay_Pattern.py
      ```
    - The script will generate the following outputs:
-     - **Console Output**: Peak morning and evening traffic details.
-     - **Graph**: Visualization of traffic patterns during the day.
-     - **CSV File**: `urban_traffic_data.csv` containing the traffic data.
+     - **Console Output**: Peak morning and evening flight delays details.
+     - **Graph**: Visualization of delay patterns during the day.
+     - **CSV File**: `Airlines_Delay_Pattern.py` containing the delay data.
 
 ## Summary of Results
 
 - **Cause of Traffic**:
-  - Peak hour traffic is mainly due to commuting professionals and students. Additional causes include construction, accidents, and events.
+  - Peak hour delay is mainly due to bad weather, plane damage, cockpit issue, pilot problems, staff error etc.
   
 - **Graph Visualization**:
-  - The graph visualizes urban traffic patterns during peak hours.
+  - The graph visualizes flight delay patterns during peak hours.
   - **Green Dashed Line**: Represents the morning peak hour (9 AM).
   - **Red Dashed Line**: Represents the evening peak hour (6 PM).
 
