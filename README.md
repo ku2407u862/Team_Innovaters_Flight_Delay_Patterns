@@ -5,7 +5,9 @@ Analyze and visualize flight delay patterns during peak hours.
 
 ## Group Members
 - **Jaival Kansara** - ku2407u862  
-- **Sameer Chauhan** - ku2407u759  
+- **Sameer Chauhan** - ku2407u759
+- **Milap Dorawala** - ku2407u671
+- **Kadiwala Kasimali** - ku2407u676
 
 ## Tools & Libraries
 
