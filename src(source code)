@@ -18,7 +18,7 @@ plt.legend(title='Delay Status', loc='upper right', labels=['On-time', 'Delayed'
 plt.xlabel('Flight')
 plt.ylabel('Average Delay (minutes)')
 plt.title('Average Flight Delays')
-plt.xticks(rotation=45, ha='right')
+plt.xticks(rotation=45)
 plt.tight_layout()
 
 # Show the plot
