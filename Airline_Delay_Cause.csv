@@ -1,0 +1,19 @@
+FlightDate,Hour,DayOfWeek,year,month,carrier,Flight,airport,airport_name,arr_flights,is_delay,carrier_ct,weather_ct,nas_ct,security_ct,late_aircraft_ct,arr_cancelled,arr_diverted,arr_delay,carrier_delay,weather_delay,nas_delay,security_delay,late_aircraft_delay
+12,5,Monday,2024,8,9E,Endeavor Air Inc.,JFK,"New York, NY: John F. Kennedy International",1612,336,79.74,15.98,129.22,0,111.06,186,1,35247,9912,3655,11824,0,9856
+12,8,Wednesday,2024,8,AA,American Airlines Network,JFK,"New York, NY: John F. Kennedy International",1189,325,74.95,20.01,121.96,0.82,107.25,63,12,28268,6300,4012,6913,80,10963
+12,6,Friday,2024,8,AS,Alaska Airlines Network,JFK,"New York, NY: John F. Kennedy International",346,112,25.22,8.11,61.24,0.04,17.39,6,2,7409,1109,1105,4082,6,1107
+12,12,Tuesday,2024,8,B6,JetBlue Airways,JFK,"New York, NY: John F. Kennedy International",3218,1067,315.58,25.18,262.17,1.99,462.08,216,18,113727,42530,2120,21859,131,47087
+12,18,Sunday,2024,8,DL,Delta Air Lines Network,JFK,"New York, NY: John F. Kennedy International",2610,665,188.52,27.28,273.13,0.41,175.65,75,25,60459,22049,2646,19565,33,16166
+12,20,Friday,2024,8,F9,Frontier Airlines,JFK,"New York, NY: John F. Kennedy International",100,24,13.73,0.79,1.71,0,7.76,3,0,1696,1064,50,68,0,514
+12,21,Tuesday,2024,8,HA,Hawaiian Airlines Network,JFK,"New York, NY: John F. Kennedy International",31,22,7.31,0,0,0,0.69,0,0,257,210,0,0,0,47
+12,23,Monday,2024,8,OO,SkyWest Airlines Inc.,JFK,"New York, NY: John F. Kennedy International",310,85,46.65,15.2,23.15,0,0,22,1,7738,3718,1921,2099,0,0
+12,11,Wednesday,2024,8,YX,Republic Airline,JFK,"New York, NY: John F. Kennedy International",1440,277,61.55,21.07,136,0,58.38,129,6,21140,4219,3159,8305,0,5457
+12,10,Friday,2024,7,9E,Endeavor Air Inc.,JFK,"New York, NY: John F. Kennedy International",1605,415,98.05,11.11,136.71,0,169.13,147,4,43748,11380,1489,11363,0,19516
+12,19,Sunday,2024,7,AA,American Airlines Network,JFK,"New York, NY: John F. Kennedy International",1167,341,85.66,16.63,109.48,1.68,127.55,24,8,36903,10232,1674,7475,55,17467
+12,18,Saturday,2024,7,AS,Alaska Airlines Network,JFK,"New York, NY: John F. Kennedy International",372,138,19.77,3.75,82.11,0,32.36,1,0,7552,978,326,4395,0,1853
+12,17,Wednesday,2024,7,B6,JetBlue Airways,JFK,"New York, NY: John F. Kennedy International",3198,1016,305.78,18.31,285.38,0.08,406.46,73,17,94990,35325,1522,19613,5,38525
+12,4,Monday,2024,7,DL,Delta Air Lines Network,JFK,"New York, NY: John F. Kennedy International",2688,780,294.35,18.07,242.74,0.55,224.29,142,24,77694,40097,1016,14289,121,22171
+12,2,Wednesday,2024,7,F9,Frontier Airlines,JFK,"New York, NY: John F. Kennedy International",62,34,13.99,0,10.8,0,9.22,0,0,2894,1626,0,381,0,887
+12,15,Friday,2024,7,HA,Hawaiian Airlines Network,JFK,"New York, NY: John F. Kennedy International",31,34,13.09,0,0,0.91,0,0,0,486,415,0,0,71,0
+12,14,Tuesday,2024,7,OO,SkyWest Airlines Inc.,JFK,"New York, NY: John F. Kennedy International",310,88,51.28,13.67,22.84,0.21,0,7,2,8731,4808,1691,2212,20,0
+12,3,Sunday,2024,7,YX,Republic Airline,JFK,"New York, NY: John F. Kennedy International",1434,347,74.7,15.94,170.76,0.39,85.21,43,2,28581,5892,1740,12886,33,8030
