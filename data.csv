@@ -16,4 +16,4 @@ FlightDate,Hour,DayOfWeek,year,month,carrier,Flight,airport,airport_name,arr_fli
 12,2,Wednesday,2024,7,F9,Frontier Airlines,JFK,"New York, NY: John F. Kennedy International",62,34,13.99,0,10.8,0,9.22,0,0,2894,1626,0,381,0,887
 12,15,Friday,2024,7,HA,Hawaiian Airlines Network,JFK,"New York, NY: John F. Kennedy International",31,34,13.09,0,0,0.91,0,0,0,486,415,0,0,71,0
 12,14,Tuesday,2024,7,OO,SkyWest Airlines Inc.,JFK,"New York, NY: John F. Kennedy International",310,88,51.28,13.67,22.84,0.21,0,7,2,8731,4808,1691,2212,20,0
-12,3,Sunday,2024,7,YX,Republic Airline,JFK,"New York, NY: John F. Kennedy International",1434,347,74.7,15.94,170.76,0.39,85.21,43,2,28581,5892,1740,12886,33,8030
+12,3,Sunday,2024,7,YX,Republic Airline,JFK,"New York, NY: John F. Kennedy International",1434,347,74.7,15.94,170.76,0.39,85.21,43,2,28581,5892,1740,12886,33,8030 
