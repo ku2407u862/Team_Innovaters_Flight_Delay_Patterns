@@ -1,58 +1,25 @@
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import numpy as np
 
-data = pd.read_csv('Airline_Delay_Cause.csv')  
+# Load the flight delay data
+data = pd.read_csv('Airline_Delay_Cause.csv')
 
-data['FlightDate'] = pd.to_datetime(data['FlightDate'])
-data['Hour'] = data['FlightDate'].dt.hour
-data['DayOfWeek'] = data['FlightDate'].dt.day_name()
-data['is_delay'] = np.where(data['DepDelay'] > 15, 1, 0)  # Define delays
+# Calculate the average delay per flight
+average_delays = data.groupby('Flight')['is_delay'].mean()
+data['is_delay'] = np.where(data['is_delay'] > 15, 1, 0) 
 
-data.fillna(0, inplace=True)
-
-plt.figure(figsize=(12, 6))
+# Create a bar graph
+plt.figure(figsize=(10, 6))
+average_delays.plot(kind='bar', color='#CA6309')
 sns.countplot(x='Hour', hue='is_delay', data=data)
-plt.title('Flight Delays by Hour of Day')
-plt.xlabel('Hour of Day')
-plt.ylabel('Number of Flights')
 plt.legend(title='Delay Status', loc='upper right', labels=['On-time', 'Delayed'])
-plt.xticks(rotation=45)
+plt.xlabel('Flight')
+plt.ylabel('Average Delay (minutes)')
+plt.title('Average Flight Delays')
+plt.xticks(rotation=45, ha='right')
+plt.tight_layout()
+
+# Show the plot
 plt.show()
-
-plt.figure(figsize=(12, 6))
-sns.countplot(x='DayOfWeek', hue='is_delay', data=data, order=['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'])
-plt.title('Flight Delays by Day of the Week')
-plt.xlabel('Day of the Week')
-plt.ylabel('Number of Flights')
-plt.legend(title='Delay Status', loc='upper right', labels=['On-time', 'Delayed'])
-plt.xticks(rotation=45)
-plt.show()
-
-plt.figure(figsize=(12, 8))
-corr_matrix = data.corr()
-sns.heatmap(corr_matrix, annot=True, fmt=".2f", cmap='coolwarm')
-plt.title('Correlation Heatmap of Flight Features')
-plt.show()
-
-airport_delay = data.groupby('Origin')['is_delay'].mean().sort_values(ascending=False)
-carrier_delay = data.groupby('Carrier')['is_delay'].mean().sort_values(ascending=False)
-
-plt.figure(figsize=(12, 6))
-airport_delay.plot(kind='bar')
-plt.title('Average Delay Rate by Airport')
-plt.xlabel('Airport')
-plt.ylabel('Average Delay Rate')
-plt.xticks(rotation=45)
-plt.show()
-
-plt.figure(figsize=(12, 6))
-carrier_delay.plot(kind='bar')
-plt.title('Average Delay Rate by Carrier')
-plt.xlabel('Carrier')
-plt.ylabel('Average Delay Rate')
-plt.xticks(rotation=45)
-plt.show()
-
-data.to_csv('processed_flights_data.csv', index=False)  # Save processed data if needed
