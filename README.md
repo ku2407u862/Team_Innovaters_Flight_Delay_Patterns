@@ -64,7 +64,7 @@ Examples: Open Data portals for urban planning or regional airport authorities.
    - Ensure Python is installed on your system.
    - Install the required libraries using:
      ```bash
-     pip install pandas matplotlib
+     pip install streamlit pandas scikit-learn
      ```
 
 2. **Save the Python Script**:
